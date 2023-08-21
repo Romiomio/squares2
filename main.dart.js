@@ -59094,12 +59094,12 @@ s=A.EM("Flutter Demo Home Page",p,p,p,p,p,p)
 r=B.JT
 return new A.um(new A.qj(s,new A.IQ(p,p,1/0,56),p),A.Nb(A.agL(A.a([A.ow(new A.v0(q.e,B.A_,B.Go,B.FS,B.FT,r,!0,p),p,300),new A.hp(new A.aD(0,10,0,10),p,p),A.a9Z(B.zY,!1,q.gSI(),"\u0421\u043e\u0441\u0447\u0438\u0442\u0430\u0442\u044c"),A.EM(q.d,p,p,p,A.aL(a).RG.e,p,p)],t.R),B.Dn,B.r4),p,p),p)}}
 A.a2p.prototype={
-$0(){var s,r=this.a,q=A.eE(r.e.a.a,null),p=q*2
-for(;!0;){p-=25
-s=Math.sqrt(p)
-if(p<0){r.d="\u0447\u0438\u0441\u043b\u043e "+q+" \u043d\u0435 \u0440\u0430\u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f"
-break}else if(B.d.ed(s,1)===0){r.d="\u043e\u0442\u0432\u0435\u0442: 5 ,  "+A.h(s)
-break}}},
+$0(){var s,r,q=this.a,p=A.eE(q.e.a.a,null),o=p*2
+for(s=5;!0;){o-=s*s
+r=Math.sqrt(o)
+if(o<0){q.d="\u0447\u0438\u0441\u043b\u043e "+p+" \u043d\u0435 \u0440\u0430\u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f"
+break}else if(B.d.ed(r,1)===0){q.d="\u043e\u0442\u0432\u0435\u0442: "+s+" ,  "+A.h(r)
+break}s+=10}},
 $S:0}
 A.b1.prototype={
 aZ(a){var s=a.a,r=this.a
