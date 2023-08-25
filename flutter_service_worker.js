@@ -6,7 +6,7 @@ const RESOURCES = {
   "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "8f2b7ab052dfcf4ace9901a3769cab3f",
+"assets/NOTICES": "c4c0ab1c18f2f6f2946e44c8c6efc82e",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/shaders/ink_sparkle.frag": "957c2fe46d293c02525e8bcc93a78f96",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
@@ -19,15 +19,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-<<<<<<< HEAD
-"index.html": "a947a6232638fb57c19e04c1fc77b0a7",
-"/": "a947a6232638fb57c19e04c1fc77b0a7",
-"main.dart.js": "7e4dcc11cb5cc7859f0389fa8a20f8b2",
-=======
-"index.html": "a626d16113125c7a079af91be8eb38c0",
-"/": "a626d16113125c7a079af91be8eb38c0",
-"main.dart.js": "090fd4d8e2e3a79d36a2ece6bdf1dd94",
->>>>>>> parent of 68a8407 (Add files via upload)
+"index.html": "22853340caf8bb58a81fb6d9c6614e59",
+"/": "22853340caf8bb58a81fb6d9c6614e59",
+"main.dart.js": "a18fed1fad23391a6c44d4d3f6102fc6",
 "manifest.json": "6eab1d1d7c42bc2fc4b897e7b9d29eef",
 "version.json": "14abe06c1555d46581bf96194f4d6664"
 };
