@@ -39,34 +39,37 @@ void main() {
     var data = message.toString().split(' ');
     BigInt num = BigInt.parse(data[0]);
     int counts = 0;
-    int i = int.parse(data[1]);
+    int step = 2;
+    int base = int.parse(data[1]);
+    int exactRoot = countRoot(num);
+    double approxRoot = sqrt(num.toDouble());
     BigInt res;
     double progress_local;
     int temp;
     while (true) {
         counts+=1;
-        res = num - BigInt.from(i)*BigInt.from(i);
-        progress_local = i/(sqrt(num.toDouble()));
+        res = num - BigInt.from(base)*BigInt.from(base);
+        progress_local = base/exactRoot;
         if (counts%10000==0){
           //print("$progress %");
           worker.sendMessage('progress $progress_local');
         }
-          if (res<=BigInt.zero){
-            worker.sendMessage('end 0');
+        if (res<BigInt.zero){
+          worker.sendMessage('end 0');
           break;
         }
         int last_digits = (res % BigInt.from(100)).toInt();
 
         if (res>BigInt.from(200) && possible_endings.contains(last_digits) == false){
-          i+=10;
+          base+=step;
           continue;
         }
         temp = countRoot(res);
         if (BigInt.from(temp)*BigInt.from(temp)==res){
-          worker.sendMessage('answer $i $temp');
+          worker.sendMessage('answer $base $temp');
 
         }
-        i+=10;
+        base+=step;
       }
   });
  
